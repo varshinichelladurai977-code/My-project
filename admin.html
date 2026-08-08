@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Admin Panel</h1>
+
+    <h2>Add New Interview Question</h2>
+
+    <form action="/add_question" method="POST">
+
+        <label>Question</label><br>
+        <textarea
+            name="question"
+            rows="4"
+            cols="60"
+            placeholder="Enter interview question"
+            required>
+        </textarea>
+
+        <br><br>
+
+        <label>Option 1</label><br>
+        <input type="text" name="option1" required>
+
+        <br><br>
+
+        <label>Option 2</label><br>
+        <input type="text" name="option2" required>
+
+        <br><br>
+
+        <label>Option 3</label><br>
+        <input type="text" name="option3" required>
+
+        <br><br>
+
+        <label>Option 4</label><br>
+        <input type="text" name="option4" required>
+
+        <br><br>
+
+        <label>Correct Answer</label><br>
+
+        <select name="answer" required>
+            <option value="">Select Correct Answer</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Add Question</button>
+
+    </form>
+
+    <br><br>
+
+    <a href="{{ url_for('dashboard') }}">
+        <button>Back to Dashboard</button>
+    </a>
+
+    <a href="{{ url_for('logout') }}">
+        <button>Logout</button>
+    </a>
+
+</div>
+
+</body>
+</html>

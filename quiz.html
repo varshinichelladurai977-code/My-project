@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview Quiz</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Mock Interview Quiz</h1>
+
+    <form action="{{ url_for('result') }}" method="POST">
+
+        {% for q in questions %}
+
+        <div class="question-box">
+
+            <h3>Q{{ loop.index }}. {{ q["question"] }}</h3>
+
+            <label>
+                <input type="radio" name="{{ q['id'] }}" value="{{ q['option1'] }}" required>
+                {{ q["option1"] }}
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="{{ q['id'] }}" value="{{ q['option2'] }}">
+                {{ q["option2"] }}
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="{{ q['id'] }}" value="{{ q['option3'] }}">
+                {{ q["option3"] }}
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="{{ q['id'] }}" value="{{ q['option4'] }}">
+                {{ q["option4"] }}
+            </label>
+
+        </div>
+
+        <hr>
+
+        {% endfor %}
+
+        <button type="submit">Submit Answers</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

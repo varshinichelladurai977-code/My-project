@@ -1,0 +1,211 @@
+/* -----------------------------
+   GREENHORN-TO-NEXARIS
+   UNIQUE NEON DARK UI
+----------------------------- */
+
+/* -----------------------------
+   ROOT COLORS
+----------------------------- */
+:root {
+    --primary: #00f5d4;
+    --primary-dark: #00c9a7;
+    --accent: #ff006e;
+
+    --bg-main: #0a0f1c;
+    --bg-card: #111827;
+
+    --text-main: #e5e7eb;
+    --text-light: #9ca3af;
+
+    --border: #1f2937;
+
+    --success: #22c55e;
+    --error: #ef4444;
+
+    --radius: 12px;
+}
+
+/* -----------------------------
+   RESET
+----------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------
+   BODY
+----------------------------- */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--bg-main);
+    color: var(--text-main);
+}
+
+/* -----------------------------
+   HEADER
+----------------------------- */
+header {
+    background: linear-gradient(90deg, #00f5d4, #ff006e);
+    text-align: center;
+    padding: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+/* -----------------------------
+   CONTAINER (GLASS EFFECT)
+----------------------------- */
+.container {
+    width: min(90%, 800px);
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: var(--radius);
+
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid var(--border);
+    box-shadow: 0 0 20px rgba(0, 245, 212, 0.2);
+}
+
+/* -----------------------------
+   TEXT
+----------------------------- */
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* -----------------------------
+   FORM
+----------------------------- */
+label {
+    font-weight: 600;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: var(--radius);
+
+    background: #020617;
+    color: white;
+
+    border: 1px solid var(--border);
+    transition: 0.3s;
+}
+
+/* Focus Glow */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 10px var(--primary);
+}
+
+/* -----------------------------
+   BUTTONS (NEON STYLE)
+----------------------------- */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: var(--radius);
+    border: none;
+
+    background: var(--primary);
+    color: black;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Glow */
+button:hover {
+    background: var(--primary-dark);
+    box-shadow: 0 0 15px var(--primary);
+}
+
+/* -----------------------------
+   MENU BUTTONS
+----------------------------- */
+.menu {
+    text-align: center;
+}
+
+.menu button {
+    width: 250px;
+    margin: 10px;
+}
+
+/* -----------------------------
+   QUESTION BOX
+----------------------------- */
+.question-box {
+    background: #020617;
+    border-left: 5px solid var(--accent);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: var(--radius);
+}
+
+/* -----------------------------
+   ERROR / SUCCESS
+----------------------------- */
+#error-box {
+    color: var(--error);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: var(--success);
+}
+
+/* -----------------------------
+   TIMER
+----------------------------- */
+#timer {
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+/* -----------------------------
+   FOOTER
+----------------------------- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: var(--text-light);
+    margin-top: 30px;
+}
+
+/* -----------------------------
+   RESPONSIVE
+----------------------------- */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    button,
+    .menu button {
+        width: 100%;
+    }
+}

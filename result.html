@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Mock Interview Quiz Result</h1>
+
+    <div class="score">
+        Your Score: <strong>{{ score }} / {{ total }}</strong>
+    </div>
+
+    {% if score >= 45 %}
+        <div class="result green">🏆 Outstanding</div>
+        <p class="message">Excellent performance! You are well prepared for interviews.</p>
+
+    {% elif score >= 40 %}
+        <div class="result green">🌟 Excellent</div>
+        <p class="message">Very good work. You have strong interview knowledge.</p>
+
+    {% elif score >= 35 %}
+        <div class="result blue">👏 Very Good</div>
+        <p class="message">You performed well. Keep practicing to improve further.</p>
+
+    {% elif score >= 30 %}
+        <div class="result orange">👍 Good</div>
+        <p class="message">You have a good understanding. Continue practicing.</p>
+
+    {% elif score >= 25 %}
+        <div class="result orange">🙂 Average</div>
+        <p class="message">You passed, but there is room for improvement.</p>
+
+    {% elif score >= 20 %}
+        <div class="result red">📚 Needs Improvement</div>
+        <p class="message">Practice more technical and interview questions.</p>
+
+    {% else %}
+        <div class="result red">❌ Poor Performance</div>
+        <p class="message">Don't give up. Review the topics and try the quiz again.</p>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
