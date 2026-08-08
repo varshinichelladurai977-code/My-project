@@ -1,0 +1,504 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "HR Interview",
+      "question": "Tell me about yourself.",
+      "option1": "Introduce your education, skills, and career goals",
+      "option2": "Talk only about your family",
+      "option3": "Talk about your hobbies only",
+      "option4": "Stay silent",
+      "answer": "Introduce your education, skills, and career goals"
+    },
+    {
+      "id": 2,
+      "category": "HR Interview",
+      "question": "Why should we hire you?",
+      "option1": "I have the required skills and willingness to learn",
+      "option2": "I need a job",
+      "option3": "My friend works here",
+      "option4": "No reason",
+      "answer": "I have the required skills and willingness to learn"
+    },
+    {
+      "id": 3,
+      "category": "HR Interview",
+      "question": "What are your strengths?",
+      "option1": "Problem-solving and teamwork",
+      "option2": "Watching TV",
+      "option3": "Sleeping",
+      "option4": "Avoiding work",
+      "answer": "Problem-solving and teamwork"
+    },
+    {
+      "id": 4,
+      "category": "HR Interview",
+      "question": "What is your biggest weakness?",
+      "option1": "I am improving my public speaking",
+      "option2": "I never work",
+      "option3": "I don't like learning",
+      "option4": "None",
+      "answer": "I am improving my public speaking"
+    },
+    {
+      "id": 5,
+      "category": "HR Interview",
+      "question": "Why do you want to join our company?",
+      "option1": "Career growth and learning opportunities",
+      "option2": "Only for salary",
+      "option3": "My friends joined",
+      "option4": "No reason",
+      "answer": "Career growth and learning opportunities"
+    },
+    {
+      "id": 6,
+      "category": "HR Interview",
+      "question": "Where do you see yourself in five years?",
+      "option1": "Growing professionally",
+      "option2": "No plans",
+      "option3": "Retired",
+      "option4": "Don't know",
+      "answer": "Growing professionally"
+    },
+    {
+      "id": 7,
+      "category": "HR Interview",
+      "question": "How do you handle pressure?",
+      "option1": "Stay calm and prioritize tasks",
+      "option2": "Avoid work",
+      "option3": "Blame others",
+      "option4": "Quit immediately",
+      "answer": "Stay calm and prioritize tasks"
+    },
+    {
+      "id": 8,
+      "category": "HR Interview",
+      "question": "What motivates you?",
+      "option1": "Learning new skills and achieving goals",
+      "option2": "Sleeping",
+      "option3": "Doing nothing",
+      "option4": "Avoiding responsibility",
+      "answer": "Learning new skills and achieving goals"
+    },
+    {
+      "id": 9,
+      "category": "HR Interview",
+      "question": "Can you work in a team?",
+      "option1": "Yes, I enjoy collaboration",
+      "option2": "No",
+      "option3": "Only sometimes",
+      "option4": "Never",
+      "answer": "Yes, I enjoy collaboration"
+    },
+    {
+      "id": 10,
+      "category": "HR Interview",
+      "question": "Do you have any questions for us?",
+      "option1": "Ask about the role and growth opportunities",
+      "option2": "No questions",
+      "option3": "Ask only about salary",
+      "option4": "Leave immediately",
+      "answer": "Ask about the role and growth opportunities"
+    },
+    {
+      "id": 11,
+      "category": "Verbal Ability",
+      "question": "Choose the synonym of 'Rapid'.",
+      "option1": "Fast",
+      "option2": "Slow",
+      "option3": "Weak",
+      "option4": "Late",
+      "answer": "Fast"
+    },
+    {
+      "id": 12,
+      "category": "Verbal Ability",
+      "question": "Choose the antonym of 'Expand'.",
+      "option1": "Increase",
+      "option2": "Reduce",
+      "option3": "Develop",
+      "option4": "Grow",
+      "answer": "Reduce"
+    },
+    {
+      "id": 13,
+      "category": "Verbal Ability",
+      "question": "Fill in the blank: She ___ to school every day.",
+      "option1": "go",
+      "option2": "goes",
+      "option3": "gone",
+      "option4": "going",
+      "answer": "goes"
+    },
+    {
+      "id": 14,
+      "category": "Verbal Ability",
+      "question": "Choose the correctly spelled word.",
+      "option1": "Accomodation",
+      "option2": "Accommodation",
+      "option3": "Acommodation",
+      "option4": "Accommadation",
+      "answer": "Accommodation"
+    },
+    {
+      "id": 15,
+      "category": "Verbal Ability",
+      "question": "Choose the correct preposition: She is good ___ Mathematics.",
+      "option1": "at",
+      "option2": "on",
+      "option3": "in",
+      "option4": "by",
+      "answer": "at"
+    },
+    {
+      "id": 16,
+      "category": "Verbal Ability",
+      "question": "Choose the correct meaning of the idiom 'Break the ice'.",
+      "option1": "Start a conversation",
+      "option2": "Break something",
+      "option3": "Feel cold",
+      "option4": "Win a game",
+      "answer": "Start a conversation"
+    },
+    {
+      "id": 17,
+      "category": "Verbal Ability",
+      "question": "Choose the correct sentence.",
+      "option1": "He don't like coffee.",
+      "option2": "He doesn't likes coffee.",
+      "option3": "He doesn't like coffee.",
+      "option4": "He not like coffee.",
+      "answer": "He doesn't like coffee."
+    },
+    {
+      "id": 18,
+      "category": "Verbal Ability",
+      "question": "Find the odd word.",
+      "option1": "Apple",
+      "option2": "Banana",
+      "option3": "Carrot",
+      "option4": "Orange",
+      "answer": "Carrot"
+    },
+    {
+      "id": 19,
+      "category": "Verbal Ability",
+      "question": "Choose the synonym of 'Brilliant'.",
+      "option1": "Intelligent",
+      "option2": "Dull",
+      "option3": "Weak",
+      "option4": "Lazy",
+      "answer": "Intelligent"
+    },
+    {
+      "id": 20,
+      "category": "Verbal Ability",
+      "question": "Choose the antonym of 'Success'.",
+      "option1": "Achievement",
+      "option2": "Victory",
+      "option3": "Failure",
+      "option4": "Progress",
+      "answer": "Failure"
+    },
+    {
+      "id": 21,
+      "category": "Python Programming",
+      "question": "Python is a ______ programming language.",
+      "option1": "Low-level",
+      "option2": "High-level",
+      "option3": "Assembly",
+      "option4": "Machine",
+      "answer": "High-level"
+    },
+    {
+      "id": 22,
+      "category": "Python Programming",
+      "question": "Which keyword is used to define a function in Python?",
+      "option1": "function",
+      "option2": "define",
+      "option3": "def",
+      "option4": "func",
+      "answer": "def"
+    },
+    {
+      "id": 23,
+      "category": "Python Programming",
+      "question": "Which data type is mutable?",
+      "option1": "Tuple",
+      "option2": "String",
+      "option3": "List",
+      "option4": "Integer",
+      "answer": "List"
+    },
+    {
+      "id": 24,
+      "category": "Python Programming",
+      "question": "Which symbol is used for comments in Python?",
+      "option1": "//",
+      "option2": "#",
+      "option3": "/* */",
+      "option4": "<!-- -->",
+      "answer": "#"
+    },
+    {
+      "id": 25,
+      "category": "Python Programming",
+      "question": "Which function displays output in Python?",
+      "option1": "echo()",
+      "option2": "display()",
+      "option3": "print()",
+      "option4": "show()",
+      "answer": "print()"
+    },
+    {
+      "id": 26,
+      "category": "Python Programming",
+      "question": "Which keyword is used to create a class in Python?",
+      "option1": "object",
+      "option2": "class",
+      "option3": "Class",
+      "option4": "create",
+      "answer": "class"
+    },
+    {
+      "id": 27,
+      "category": "Python Programming",
+      "question": "Which loop is used to iterate over a sequence?",
+      "option1": "for",
+      "option2": "switch",
+      "option3": "case",
+      "option4": "goto",
+      "answer": "for"
+    },
+    {
+      "id": 28,
+      "category": "Python Programming",
+      "question": "Which method is called automatically when an object is created?",
+      "option1": "__main__",
+      "option2": "__init__",
+      "option3": "__start__",
+      "option4": "__create__",
+      "answer": "__init__"
+    },
+    {
+      "id": 29,
+      "category": "Python Programming",
+      "question": "Which keyword is used to handle exceptions?",
+      "option1": "catch",
+      "option2": "try",
+      "option3": "throw",
+      "option4": "error",
+      "answer": "try"
+    },
+    {
+      "id": 30,
+      "category": "Python Programming",
+      "question": "Which operator is used for exponentiation in Python?",
+      "option1": "^",
+      "option2": "*",
+      "option3": "**",
+      "option4": "//",
+      "answer": "**"
+    },
+    {
+      "id": 31,
+      "category": "HTML",
+      "question": "What does HTML stand for?",
+      "option1": "Hyper Text Markup Language",
+      "option2": "High Text Machine Language",
+      "option3": "Hyper Tool Multi Language",
+      "option4": "Home Tool Markup Language",
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "id": 32,
+      "category": "HTML",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "option1": "<a>",
+      "option2": "<link>",
+      "option3": "<href>",
+      "option4": "<url>",
+      "answer": "<a>"
+    },
+    {
+      "id": 33,
+      "category": "HTML",
+      "question": "Which HTML tag is used to insert an image?",
+      "option1": "<img>",
+      "option2": "<image>",
+      "option3": "<picture>",
+      "option4": "<src>",
+      "answer": "<img>"
+    },
+    {
+      "id": 34,
+      "category": "HTML",
+      "question": "Which HTML tag is used for the largest heading?",
+      "option1": "<h6>",
+      "option2": "<head>",
+      "option3": "<h1>",
+      "option4": "<title>",
+      "answer": "<h1>"
+    },
+    {
+      "id": 35,
+      "category": "HTML",
+      "question": "Which HTML tag creates a table row?",
+      "option1": "<td>",
+      "option2": "<tr>",
+      "option3": "<th>",
+      "option4": "<table>",
+      "answer": "<tr>"
+    },
+    {
+      "id": 36,
+      "category": "CSS",
+      "question": "What does CSS stand for?",
+      "option1": "Creative Style Sheets",
+      "option2": "Cascading Style Sheets",
+      "option3": "Computer Style Sheets",
+      "option4": "Colorful Style Sheets",
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": 37,
+      "category": "CSS",
+      "question": "Which CSS property changes the text color?",
+      "option1": "font-color",
+      "option2": "color",
+      "option3": "text-color",
+      "option4": "background-color",
+      "answer": "color"
+    },
+    {
+      "id": 38,
+      "category": "CSS",
+      "question": "Which CSS property changes the background color?",
+      "option1": "bgcolor",
+      "option2": "background",
+      "option3": "background-color",
+      "option4": "color",
+      "answer": "background-color"
+    },
+    {
+      "id": 39,
+      "category": "CSS",
+      "question": "Which CSS property is used to change the font size?",
+      "option1": "font-style",
+      "option2": "font-size",
+      "option3": "text-size",
+      "option4": "size",
+      "answer": "font-size"
+    },
+    {
+      "id": 40,
+      "category": "CSS",
+      "question": "Which symbol is used to select a class in CSS?",
+      "option1": "#",
+      "option2": ".",
+      "option3": "*",
+      "option4": "@",
+      "answer": "."
+    },
+    {
+      "id": 41,
+      "category": "JavaScript",
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "option1": "var",
+      "option2": "let",
+      "option3": "const",
+      "option4": "All of the above",
+      "answer": "All of the above"
+    },
+    {
+      "id": 42,
+      "category": "JavaScript",
+      "question": "Which method displays a popup alert?",
+      "option1": "print()",
+      "option2": "show()",
+      "option3": "alert()",
+      "option4": "display()",
+      "answer": "alert()"
+    },
+    {
+      "id": 43,
+      "category": "JavaScript",
+      "question": "Which symbol is used for single-line comments in JavaScript?",
+      "option1": "#",
+      "option2": "//",
+      "option3": "/*",
+      "option4": "<!--",
+      "answer": "//"
+    },
+    {
+      "id": 44,
+      "category": "JavaScript",
+      "question": "Which event occurs when a button is clicked?",
+      "option1": "onload",
+      "option2": "onclick",
+      "option3": "onchange",
+      "option4": "onmouseover",
+      "answer": "onclick"
+    },
+    {
+      "id": 45,
+      "category": "JavaScript",
+      "question": "Which function converts a string to an integer?",
+      "option1": "Number()",
+      "option2": "parseInt()",
+      "option3": "toInteger()",
+      "option4": "int()",
+      "answer": "parseInt()"
+    },
+    {
+      "id": 46,
+      "category": "Common Placement",
+      "question": "What is the most important skill for working in a team?",
+      "option1": "Communication",
+      "option2": "Working alone",
+      "option3": "Ignoring others",
+      "option4": "Competition",
+      "answer": "Communication"
+    },
+    {
+      "id": 47,
+      "category": "Common Placement",
+      "question": "What should you do before attending an interview?",
+      "option1": "Research the company",
+      "option2": "Arrive late",
+      "option3": "Ignore the job description",
+      "option4": "Do nothing",
+      "answer": "Research the company"
+    },
+    {
+      "id": 48,
+      "category": "Common Placement",
+      "question": "Which document is commonly required during a job interview?",
+      "option1": "Resume",
+      "option2": "Movie ticket",
+      "option3": "Shopping bill",
+      "option4": "Passport photo only",
+      "answer": "Resume"
+    },
+    {
+      "id": 49,
+      "category": "Common Placement",
+      "question": "What is the purpose of a resume?",
+      "option1": "To summarize your education, skills, and experience",
+      "option2": "To watch videos",
+      "option3": "To browse the internet",
+      "option4": "To play games",
+      "answer": "To summarize your education, skills, and experience"
+    },
+    {
+      "id": 50,
+      "category": "Common Placement",
+      "question": "What is the best way to answer an interview question when you don't know the answer?",
+      "option1": "Stay calm, be honest, and explain your approach to solving it",
+      "option2": "Guess randomly",
+      "option3": "Remain silent throughout",
+      "option4": "Change the topic",
+      "answer": "Stay calm, be honest, and explain your approach to solving it"
+    }
+  ]
+}
