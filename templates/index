@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenhorn-to-Nexaris Mock Interviewer & Study Buddy Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Greenhorn-to-Nexaris Mock Interviewer & Study Buddy Bot</h1>
+
+        <p>
+            Welcome to the Greenhorn-to-Nexaris Mock Interviewer & Study Buddy Bot.
+            Practice interview questions, improve your technical skills,
+            and prepare for placements with quizzes and study materials.
+        </p>
+
+        <br>
+
+        <a href="{{ url_for('login') }}">
+            <button>Login</button>
+        </a>
+
+        <a href="{{ url_for('register') }}">
+            <button>Register</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
